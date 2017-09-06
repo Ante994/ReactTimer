@@ -1,1 +1,1 @@
-Boilerplate App
+React Timer App
