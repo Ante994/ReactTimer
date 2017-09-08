@@ -1,5 +1,6 @@
 var webpack = require('webpack');
 const path = require('path');
+
 module.exports = {
     entry: [
         'script-loader!jquery/dist/jquery.min.js',
@@ -25,6 +26,8 @@ module.exports = {
         Navigation: path.resolve('app/components/Navigation.jsx'),
         Timer: path.resolve('app/components/Timer.jsx'),
         Countdown: path.resolve('app/components/Countdown.jsx'),
+        CountdownForm: path.resolve('app/components/CountdownForm.jsx'),
+        Clock: path.resolve('app/components/Clock.jsx'),
         applicationStyles: path.resolve('app/styles/app.scss'),
         },
         extensions: ['.js', '.jxs'],

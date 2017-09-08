@@ -9,10 +9,7 @@ class Navigation extends React.Component {
                     <ul className="menu">
                         <li className="menu-text">React Time App</li>
                         <li>
-                            <IndexLink to="/" activeClassName="active" activeStyle={{fontWeight: 'bold'}}>React Time App</IndexLink>
-                        </li>
-                        <li>
-                            <Link to="/timer" activeClassName="active" activeStyle={{fontWeight: 'bold'}}>Timer</Link>
+                            <IndexLink to="/" activeClassName="active" activeStyle={{fontWeight: 'bold'}}>Timer</IndexLink>
                         </li>
                         <li>
                             <Link to="/countdown" activeClassName="active" activeStyle={{fontWeight: 'bold'}}>Countdown</Link>
@@ -22,7 +19,7 @@ class Navigation extends React.Component {
                 <div className="top-bar-right">
                     <ul className="menu">
                         <li className="menu-text">
-                            Created by <a href="https://github.com/Ante994" target="_blank"> Ante Domjanovic</a>
+                            Created by <a href="https://github.com/Ante994" target="_blank"> pro dev.not</a>
                         </li>
                     </ul>
                 </div>
