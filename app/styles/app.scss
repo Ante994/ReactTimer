@@ -1,8 +1,5 @@
 @import "base/variables";
 @import "components/navigation";
 @import "components/clock";
-
-
-p {
-    color: #777;
-}
+@import "components/controls";
+@import "components/page-title";
